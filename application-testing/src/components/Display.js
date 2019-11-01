@@ -1,8 +1,12 @@
 import React from "react";
 
-const Display= () => {
+
+const Display= (props) => {
+    console.log('fuckkk', props)
     return (
         <div>
+            <p>balls: {props.balls}</p>
+            <p>strikes: {props.strikes}</p>
         </div>
     )
 }
@@ -11,7 +15,3 @@ export default Display;
 
 
 
-// ### Display
-
-// - display the count of `balls` and `strikes` for the at-bat.
-// - should be updated when the user records activity on the `Dashboard` component.
