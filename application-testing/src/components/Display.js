@@ -2,7 +2,6 @@ import React from "react";
 
 
 const Display= (props) => {
-    console.log('fuckkk', props)
     return (
         <div>
             <p>balls: {props.balls}</p>
